@@ -8,11 +8,12 @@ export default defineConfig({
       partialDirectory: resolve(__dirname, "src/components"),
     }),
   ],
-  root: resolve(__dirname, "src"),
-  build: {
-    outDir: resolve(__dirname, "src"),
-  },
+  root: "./src",
   server: {
     port: 3000,
+  },
+  build: {
+    sourcemap: false,
+    outDir: "../dist",
   },
 });
