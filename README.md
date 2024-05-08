@@ -38,6 +38,6 @@
 
 ### **Netlify**
 
-+ Домен
++ [Домен](https://dancing-parfait-733e0c.netlify.app/)
 
 ### **Pull-request**
