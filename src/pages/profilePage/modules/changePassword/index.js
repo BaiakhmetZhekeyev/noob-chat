@@ -19,16 +19,18 @@ export const ChangePassword = (props) => {
       inputClass: "input-container-secondary",
       labelText: "Old password",
       inputType: "password",
+      inputName: "oldPassword",
     }),
     newPassword: Input({
       inputClass: "input-container-secondary",
       labelText: "New password",
       inputType: "password",
+      inputName: "newPassword",
     }),
     repeatNewPassword: Input({
       inputClass: "input-container-secondary",
       labelText: "Repeat new password",
-      inputType: "password",
+      inputType: "repeatNewPassword",
     }),
     SaveBtn: Button({
       buttonText: "Change password",

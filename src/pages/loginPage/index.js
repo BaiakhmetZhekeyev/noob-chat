@@ -12,11 +12,13 @@ export const LoginPage = (props) => {
       inputClass: "input-container-primary",
       labelText: "Login",
       inputType: "text",
+      inputName: "login",
     }),
     PasswordInput: Input({
       inputClass: "input-container-primary",
       labelText: "Password",
       inputType: "password",
+      inputName: "password",
     }),
     LoginBtn: Button({
       buttonText: "Login",

@@ -8,40 +8,47 @@ import { Navigation } from "../../helpers/navigation/index.js";
 export const RegisterPage = (props) => {
   return Handlebars.compile(tpl)({
     Navigation: Navigation(),
-    email: Input({
+    EmailInput: Input({
       inputClass: "input-container-primary",
       labelText: "Email",
       inputType: "email",
+      inputName: "email",
     }),
-    login: Input({
+    LoginInput: Input({
       inputClass: "input-container-primary",
       labelText: "Login",
       inputType: "text",
+      inputName: "login",
     }),
-    first_name: Input({
+    FirstNameInput: Input({
       inputClass: "input-container-primary",
       labelText: "First name",
       inputType: "text",
+      inputName: "first_name",
     }),
-    second_name: Input({
+    SecondNameInput: Input({
       inputClass: "input-container-primary",
       labelText: "Second name",
       inputType: "text",
+      inputName: "second_name",
     }),
-    phone: Input({
+    Phone: Input({
       inputClass: "input-container-primary",
       labelText: "Phone",
       inputType: "text",
+      inputName: "phone",
     }),
-    password: Input({
+    PasswordInput: Input({
       inputClass: "input-container-primary",
       labelText: "Password",
       inputType: "password",
+      inputName: "password",
     }),
-    repeat_password: Input({
+    RepeatPasswordInput: Input({
       inputClass: "input-container-primary",
       labelText: "Repeat password",
       inputType: "password",
+      inputName: "repeat_password",
     }),
     RegisterBtn: Button({
       buttonText: "Register",

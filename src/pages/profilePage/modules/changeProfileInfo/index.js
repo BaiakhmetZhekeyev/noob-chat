@@ -15,35 +15,41 @@ export const ChangeProfileInfo = (props) => {
     Avatar: Avatar({
       userImage: Image,
     }),
-    email: Input({
+    EmailInput: Input({
       inputClass: "input-container-secondary",
       labelText: "Email",
       inputType: "email",
+      inputName: "email",
     }),
-    login: Input({
+    LoginInput: Input({
       inputClass: "input-container-secondary",
       labelText: "Login",
       inputType: "text",
+      inputName: "login",
     }),
-    first_name: Input({
+    FirstNameInput: Input({
       inputClass: "input-container-secondary",
       labelText: "First name",
       inputType: "text",
+      inputName: "first_name",
     }),
-    second_name: Input({
+    SecondNameInput: Input({
       inputClass: "input-container-secondary",
       labelText: "Second name",
       inputType: "text",
+      inputName: "second_name",
     }),
-    display_name: Input({
+    DisplayNameInput: Input({
       inputClass: "input-container-secondary",
       labelText: "Display name",
       inputType: "text",
+      inputName: "display_name",
     }),
-    phone: Input({
+    Phone: Input({
       inputClass: "input-container-secondary",
       labelText: "Phone",
       inputType: "text",
+      inputName: "phone",
     }),
     SaveBtn: Button({
       buttonText: "Save",
