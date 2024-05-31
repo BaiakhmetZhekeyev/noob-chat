@@ -1,5 +1,7 @@
+import styles from './style.module.scss';
+
 export const tpl = `
     {{{Input}}}
-    <label>{{label}}</label>
+    <label class=${styles.label}>{{label}}</label>
     {{{ErrorSpan}}}
 `;
