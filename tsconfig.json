@@ -12,6 +12,7 @@
     "noEmit": true,
     "noImplicitAny": true,
     "sourceMap": true,
+    "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
