@@ -25,6 +25,7 @@
     "stylelint": "^16.6.0",
     "stylelint-config-standard-scss": "^13.1.0",
     "stylelint-order": "^6.0.4",
+    "typescript": "^5.4.5",
     "vite": "^5.2.11",
     "vite-plugin-handlebars": "^2.0.0"
   },
