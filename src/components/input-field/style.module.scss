@@ -1,0 +1,59 @@
+.input {
+  position:relative;
+  margin-bottom:22px;
+  min-width: 400px;
+
+  input {
+    border:0;
+    border-bottom:1px solid var(--color-text-3);
+    background:transparent;
+    width: 100%;
+    color: var(--color-text-1);
+
+    &:focus {
+      border:none;
+      outline:none;
+      border-bottom:1px solid var(--color-accent);
+    }
+  }
+
+  label {
+    position:absolute;
+    top:0px;
+    left:0px;
+    font-size:15px;
+    color: var(--color-text-3);
+    pointer-events:none;
+  }
+
+
+}
+.secondary{
+  label {
+    font-weight: bold;
+  }
+  input {
+    padding:4px;
+    font-size:20px;
+    color: var(--color-text-1);
+    direction: rtl;
+  }
+}
+
+
+.primary{
+  input {
+    padding:8px 5px 5px 0;
+    font-size:16px;
+  }
+  label {
+    transition: all 0.2s ease-in-out;
+  }
+  input:focus ~ label,
+  input:valid ~ label{
+    top:-12px;
+    font-size:12px;
+
+  }
+}
+

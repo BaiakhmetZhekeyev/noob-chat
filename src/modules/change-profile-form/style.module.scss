@@ -1,0 +1,12 @@
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.changeProfileInfoForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}

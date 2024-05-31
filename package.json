@@ -12,13 +12,25 @@
     "start": "npm run build && node server.js"
   },
   "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-typescript-sort-keys": "^3.2.0",
     "prettier": "^3.2.5",
     "sass": "^1.77.0",
+    "stylelint": "^16.6.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-order": "^6.0.4",
     "vite": "^5.2.11",
     "vite-plugin-handlebars": "^2.0.0"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "handlebars": "^4.7.8"
+    "handlebars": "^4.7.8",
+    "uuid": "^9.0.1"
   }
 }

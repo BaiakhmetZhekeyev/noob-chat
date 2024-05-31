@@ -1,0 +1,48 @@
+.link {
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding:10px 20px;
+  border-radius:5px;
+  min-width: 250px;
+  text-decoration: none;
+  text-align: center;
+  font-size: small;
+}
+
+.contained {
+  background-color: var(--color-accent);
+  color: var(--color-text-2);
+
+  &:hover {
+    box-shadow: 0 0 4px 1px var(--color-shadow);
+  }
+}
+
+.outlined {
+  background-color: var(--color-background-1);
+  color: var(--color-accent);
+  border: var(--color-accent) 1px solid;
+
+  &:hover {
+    box-shadow: 0 0 4px 1px var(--color-shadow);
+  }
+}
+
+.warning {
+  background-color: var(--color-warning);
+  color: var(--color-text-2);
+
+  &:hover {
+    box-shadow: 0 0 4px 1px var(--color-warning-shadow);
+  }
+}
+
+.default {
+  font-size: 14px;
+  color: var(--color-text-3);
+  &:hover {
+    color: var(--color-text-1);
+  }
+}
+
+

@@ -1,19 +1,19 @@
-import { defineConfig } from "vite";
-import { resolve } from "path";
-import handlebars from "vite-plugin-handlebars";
+import { defineConfig } from 'vite';
+import { resolve } from 'path';
+import handlebars from 'vite-plugin-handlebars';
 
 export default defineConfig({
   plugins: [
     handlebars({
-      partialDirectory: resolve(__dirname, "src/components"),
+      partialDirectory: resolve(__dirname, 'src/components'),
     }),
   ],
-  root: "./src",
+  root: './src',
   server: {
     port: 3000,
   },
   build: {
     sourcemap: false,
-    outDir: "../dist",
+    outDir: '../dist',
   },
 });
