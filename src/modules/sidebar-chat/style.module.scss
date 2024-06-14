@@ -1,0 +1,64 @@
+.chatContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 24px;
+  width: 290px;
+  text-decoration: none;
+  &:hover {
+    background-color: var(--color-background-3);
+  }
+}
+
+.userInfoContainer{
+  display: flex;
+  gap: 14px;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-text-1);
+}
+
+.lastMessage {
+  max-width: 180px;
+  overflow: hidden;
+  font-size: 14px;
+  color: var(--color-text-3);
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+
+
+.messageInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 7px;
+  align-items: center;
+}
+
+.time {
+  font-size: 12px;
+}
+
+.numberOfMessages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-text-2);
+  background-color: var(--color-accent);
+  border-radius: 50%;
+}

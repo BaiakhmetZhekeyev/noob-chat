@@ -1,5 +1,14 @@
-body{
-    min-height:100vh;
+:root {
+    --color-accent: #3369F3;
+    --color-shadow: #7EA3FB;
+    --color-text-1: #1E1E1E;
+    --color-text-2: #FFF;
+    --color-text-3: #999999;
+    --color-background-1: #FFF;
+    --color-background-2: #1E1F22;
+    --color-background-3: #EFEFEF;
+    --color-box-shadow: #C3C3C3;
+    --color-warning: #FF0000;
+    --color-warning-shadow: #FA5757;
     font-family: 'Noto Sans', sans-serif;
 }
-

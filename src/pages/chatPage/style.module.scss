@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.currentChat {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.top {
+  padding: 12px 20px;
+  position: relative
+}
+
+.chats li {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.chats li::after, .top::after {
+  content: "";
+  display: block;
+  width: 90%;
+  border-bottom: 2px solid var(--color-box-shadow);
+  position: absolute;
+  bottom: 0;
+  left: 5%
+}
+
+.topInfo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.username {
+  font-size: 18px;
+}
+
+.settingsButtonn {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+
+  cursor: pointer;
+
+  background-color: transparent;
+  background-image: url("../../assets/images/settings-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  border: none;
+}
+
+.messages {
+  display: flex;
+
+  flex-direction: column;
+}
+.messages li{
+  margin-bottom: 10px;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 0px 0px;
+
+}
+
+.sidebar {
+  max-width: 338px;
+  max-height: 100vh;
+  overflow-y: auto;
+
+  background-color: var(--color-background-3);
+  border-right: 1px solid var(--color-box-shadow);
+
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #1E1E1E;
+    border-radius: 60px;
+  }
+}
+
+.profileLinkContainer {
+  padding: 12px 12px 12px;
+  text-align: right;
+}
+
+.searchInputContainer {
+  padding: 12px 28px ;
+  border-bottom: 1px solid var(--color-box-shadow);
+}
+
+

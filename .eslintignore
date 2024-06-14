@@ -1,0 +1,14 @@
+# Ignore log files
+*.log
+
+# Ignore Vite build output
+.vite/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore distribution directories
+dist/
+dist-ssr/
+Block.ts
+
